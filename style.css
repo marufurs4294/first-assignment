@@ -135,7 +135,7 @@ height: 475px;
 }
 .count-item {
 	margin: 0 90px;
-	box-shadow: 10px 10px 40px rgb(180, 178, 178);
+	box-shadow: 10px 10px 35px rgb(180, 178, 178);
 	border-radius: 8px;
 }
 .count-part{
@@ -149,4 +149,24 @@ height: 475px;
 }
 .count-part p{
     font-size: 17px;
+}
+
+
+/* footer section */
+
+.footer-bottom{
+    margin-top: 60px;
+    background-color: rgb(10, 10, 10);
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.footer-bottom h2{
+    color: rgb(134, 132, 132);
+}
+.footer-bottom p{
+    color: rgb(172, 165, 165);
+    font-size: 14px;
+    padding-bottom: 90px;
+    font-weight: bold;
 }
