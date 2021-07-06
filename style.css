@@ -28,6 +28,9 @@ body{
 .half-width{
     width: 50%;
 }
+h1{
+    font-size: 50px;
+}
 .text-orange{
     color: orange;
 }
@@ -62,4 +65,24 @@ color: rgb(82, 78, 78);
 }
 .mid-content{
     margin: 118px 0;
+}
+
+
+/* About Section */
+.about-section{
+    background-image: url(image/7.png);
+    background-repeat:no-repeat ;
+
+}
+.about-image{
+    padding: 80px;
+    margin: 40px;
+    width: 303px;
+}
+.about-content{
+    margin: 143px 0;
+}
+
+.about-content p{
+    padding-bottom: 45px;
 }
