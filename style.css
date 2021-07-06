@@ -21,3 +21,45 @@ body{
     text-align: center;
     padding-top: 20px;
 }
+/* Multiple usable tag  */
+.flexible-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.text-orange{
+    color: orange;
+}
+p{
+    font-size:22px;
+    color: gray;
+    padding-bottom: 25px;
+    line-height: 35px;
+}
+a{
+    
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 24px;
+    background-image: linear-gradient(to right,#FDC830,#F37335);
+    text-decoration: none;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+
+/* Mid section */
+.mid-section{
+    padding: 50px;
+}
+
+.mid-section h1{
+font-size:50px;
+color: rgb(82, 78, 78);
+}
+.mid-content{
+    margin: 118px 0;
+}
