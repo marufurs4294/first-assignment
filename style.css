@@ -1,0 +1,23 @@
+body{
+    font-family:sans-serif, 'Arimo';
+}
+.top-banner-section{
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    height: 504px;
+
+}
+.banner-content h1{
+    font-size: 40px;
+    color: #fff;
+    margin:  auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.banner-content h2{
+    font-size: 30px;
+    color:#fff ;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
