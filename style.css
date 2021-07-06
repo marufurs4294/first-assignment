@@ -1,5 +1,6 @@
 body{
     font-family:sans-serif, 'Arimo';
+    overflow-x: hidden;
 }
 .top-banner-section{
     background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
@@ -43,7 +44,7 @@ p{
 a{
     
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 18px;
     padding: 15px 40px;
     border-radius: 24px;
     background-image: linear-gradient(to right,#FDC830,#F37335);
@@ -85,4 +86,47 @@ color: rgb(82, 78, 78);
 
 .about-content p{
     padding-bottom: 45px;
+}
+
+/* recipe Section */
+.recipe-section{
+
+}
+.recipe-header{
+    margin:0 auto;
+    text-align: center;
+    width: 55%;
+}
+.recipe-header h2{
+    color:rgb(82, 78, 78);
+    margin-bottom: 0;
+}
+.recipe-header p{
+    font-size: 15px;
+    line-height: normal;
+}
+.recipe-item{
+margin: 20px;
+display: flex;
+}
+.recipe-part{
+margin: 20px;
+width: 32%;
+box-sizing: border-box;
+border:20px solid rgb(253, 252, 252);
+border-radius: 19px;
+box-shadow: 10px 10px 40px gray;
+height: 475px;
+}
+.recipe-part img {
+	border-radius: 6px;
+	aspect-ratio: 1/1;
+}
+
+.recipe-part h2{
+    font-weight: 900;
+}
+.recipe-part p{
+    font-size: 16px;
+    line-height: normal;
 }
