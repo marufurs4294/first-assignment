@@ -89,9 +89,7 @@ color: rgb(82, 78, 78);
 }
 
 /* recipe Section */
-.recipe-section{
 
-}
 .recipe-header{
     margin:0 auto;
     text-align: center;
@@ -115,7 +113,7 @@ width: 32%;
 box-sizing: border-box;
 border:20px solid rgb(253, 252, 252);
 border-radius: 19px;
-box-shadow: 10px 10px 40px gray;
+box-shadow: 10px 10px 40px rgb(167, 160, 160);
 height: 475px;
 }
 .recipe-part img {
@@ -129,4 +127,26 @@ height: 475px;
 .recipe-part p{
     font-size: 16px;
     line-height: normal;
+}
+
+/*Count section  */
+.count-section{
+    margin-top: 67px;
+}
+.count-item {
+	margin: 0 90px;
+	box-shadow: 10px 10px 40px rgb(180, 178, 178);
+	border-radius: 8px;
+}
+.count-part{
+    margin: 0 auto;
+    text-align: center;
+}
+.count-part h2{
+    font-size: 32px;
+    font-weight: 900;
+    padding-bottom: 0;
+}
+.count-part p{
+    font-size: 17px;
 }
